@@ -36,7 +36,7 @@ void loop()                     // run over and over again
  
  delay(1000); //waiting a second
  
- float normalTemp = 38;
+ float normalTemp = 15;
  if (temperatureC < normalTemp)
  { 
    digitalWrite(8,HIGH);
